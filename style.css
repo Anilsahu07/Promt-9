@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    width: 100%;
+    border-radius: 20px;
+    border: 5px solid black;
+    padding: 5px 5px;
+}
+
+.content{
+    background: url(job-5382501_1280.jpg);
+    width: 100%;
+    font-family: montserrat;
+    height: 100%;
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.page1{
+    /* padding: 20px 30px; */
+    padding-bottom: 50px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background: linear-gradient(to top left, rgba(0, 0, 0, 0.337) 70%, rgba(0, 128, 0, 0.258));
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: black;
+    padding: 20px 30px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+nav i{
+    font-size: 23px;
+    font-weight: 700;
+}
+
+nav select{
+    width: 10%;
+    padding: 8px 3px;
+    color: white;
+    background-color: transparent;
+    font-family: josefin sans;
+    border: 2px solid white;
+}
+
+.mid{
+    margin-top: 100px;
+    padding: 0 30px;
+}
+
+.date{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left{
+    width: 50%;
+}
+
+.right{
+    background-color: rgb(19, 235, 19);
+    padding: 15px 25px;
+    border-radius: 15px;
+}
+
+.right:hover{
+    scale: 1.1;
+    transition: 1s linear;
+}
+
+.right h2{
+    font-family: poppins;
+   font-size: 2vw;
+   color: black;
+   font-weight: 900;
+}
+
+input[type=text]{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(5, 162, 5, 0.462);
+    margin-top: 10px;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.details label{
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.details button{
+    padding: 10px 0;
+    border-radius: 10px;
+    background-color: black;
+    border: none;
+    color: white;
+    font-family: poppins;
+    font-weight: 600;
+}
+
+.details button:hover{
+    background-color: brown;
+    color: white;
+}
+
+.date p{
+    font-size: 14px;
+}
+
+.date h1{
+    font-size: 4vw;
+    margin-top: 20px;
+}
+
+.text{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-top: 30px;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.para{
+    font-size: 14px;
+    font-weight: 500;
+    width: 50%;
+    line-height: 30px;
+    color: white;
+}
+
+.circle{
+    border: 1px solid black;
+    padding: 10px 50px;
+    border-radius: 200px;
+    display: flex;
+    color: white;
+    background-color: black;
+}
+
+.circle:hover{
+    color: rgb(68, 66, 66);
+    font-weight: 600;
+    background-color: white;
+
+}
+
+.circle i{
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.page2{
+    margin-top: 40px;
+}
+
+.page2-head{
+    text-align: center;
+}
+
+.page2-head p{
+    margin-top: 15px;
+}

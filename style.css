@@ -52,9 +52,9 @@ nav i{
 
 nav select{
     width: 10%;
-    padding: 8px 3px;
+    padding: 5px 3px;
     color: white;
-    background-color:rgba(0, 0, 0, 0.434);
+    background-color:rgba(0, 0, 0, 0.26);
     font-family: josefin sans;
     border: 2px solid white;
 }
